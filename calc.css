@@ -1,0 +1,63 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    background-color: white;
+}
+button {
+    border-style: none;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    margin: 2px 2px 2px 2px;
+}
+div.screen, div.smallerScreen {
+    border-radius: 25px;
+    border-style: none;
+    overflow: auto;
+}
+div.smallerScreen {
+    font-size: 18px;
+    padding: 5px;
+    padding-right: 20px;
+    text-align: right;
+
+}
+div.screen {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    vertical-align: bottom;
+}
+
+
+
+div.buttons {
+    column-count: 5;
+    max-width: 300px;
+    margin-top: 5px;
+/*    background-color: brown;*/
+}
+
+.green {
+    background-color: rgba(31, 196, 55, 0.1);
+}
+button:hover.green {
+    background-color: rgba(31, 196, 55, 0.2);
+}
+
+.blue {
+        background-color: rgba(20, 77, 198, 0.1);
+}
+button:hover.blue {
+        background-color: rgba(20, 77, 198, 0.2);
+}
+
+.rainbow {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 140, 0, 0.1), rgba(255, 255, 0, 0.1), rgba(0, 255, 255, 0.1), rgba(0, 0, 255, 0.1), rgba(255, 0, 255, 0.1));
+}
+button:hover.rainbow {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.2), rgba(255, 140, 0, 0.2), rgba(255, 255, 0, 0.2), rgba(0, 255, 255, 0.2), rgba(0, 0, 255, 0.2), rgba(255, 0, 255, 0.2));
+}
+
